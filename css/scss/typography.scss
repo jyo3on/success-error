@@ -1,0 +1,37 @@
+body {
+  font-family: Roboto, Helvetica-Neue, Helvetica, Arial, sans-serif;
+  font-weight: 200;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.text-white {
+  color: #fff
+}
+
+.text-green {
+  color: #2e715a;
+}
+
+.text-red {
+  color: #DC456C;
+}
+
+.text-grey {
+  color: #bbb;
+}
+
+.text-big {
+  font-size: 2.4em;
+  font-weight: 800;
+  letter-spacing: 6px;
+  margin-bottom: .1em;
+  line-height: 1.2em;
+}

@@ -1,0 +1,661 @@
+/* 
+ * Custom Stylesheets for static pages
+ */
+/* line 5, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+/* line 12, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden; }
+
+/* line 18, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+section {
+  padding: 9vh 0;
+  height: 50vh;
+  display: flex;
+  flex-direction: column; }
+
+/* line 25, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+.top {
+  justify-content: flex-end; }
+
+/* line 29, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+.bottom {
+  justify-content: flex-start; }
+
+/* line 33, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+h1, h2, h3 {
+  margin: 0.67em 0;
+  font-size: 1.4em;
+  font-weight: 100;
+  letter-spacing: 5px; }
+
+/* line 40, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+
+/* line 45, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+a:active,
+a:hover {
+  outline-width: 0; }
+
+/* line 50, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+img {
+  border-style: none; }
+
+/* line 54, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit; }
+
+@media print {
+  /* line 60, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  *,
+  *::before,
+  *::after,
+  p::first-letter,
+  div::first-letter,
+  p::first-line,
+  div::first-line {
+    text-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; }
+  /* line 71, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  a,
+  a:visited {
+    text-decoration: underline; }
+  /* line 75, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  img {
+    page-break-inside: avoid; }
+  /* line 78, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  p,
+  h2 {
+    orphans: 3;
+    widows: 3; }
+  /* line 83, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  h2 {
+    page-break-after: avoid; } }
+
+/* line 88, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 93, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; }
+
+@-ms-viewport {
+  width: device-width; }
+
+/* line 104, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+html {
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent; }
+
+/* line 109, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #292b2c;
+  background-color: #fff; }
+
+/* line 118, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+h1, h2 {
+  margin-top: 0;
+  margin-bottom: .5rem; }
+
+/* line 123, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+p {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+/* line 128, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+a {
+  color: #0275d8;
+  text-decoration: none; }
+
+/* line 133, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+a:focus, a:hover {
+  color: #014c8c;
+  text-decoration: underline; }
+
+/* line 138, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+img {
+  vertical-align: middle; }
+
+/* line 142, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+a {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation; }
+
+/* line 147, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+@media (min-width: 576px) {
+  /* line 156, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  .container {
+    padding-right: 15px;
+    padding-left: 15px; } }
+
+@media (min-width: 768px) {
+  /* line 163, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  .container {
+    padding-right: 15px;
+    padding-left: 15px; } }
+
+@media (min-width: 992px) {
+  /* line 170, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  .container {
+    padding-right: 15px;
+    padding-left: 15px; } }
+
+@media (min-width: 1200px) {
+  /* line 177, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  .container {
+    padding-right: 15px;
+    padding-left: 15px; } }
+
+@media (min-width: 576px) {
+  /* line 184, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  .container {
+    width: 540px;
+    max-width: 100%; } }
+
+@media (min-width: 768px) {
+  /* line 191, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  .container {
+    width: 720px;
+    max-width: 100%; } }
+
+@media (min-width: 992px) {
+  /* line 198, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  .container {
+    width: 960px;
+    max-width: 100%; } }
+
+@media (min-width: 1200px) {
+  /* line 205, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  .container {
+    width: 1140px;
+    max-width: 100%; } }
+
+/* line 211, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+.btn {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  font-weight: normal;
+  line-height: 1.25;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
+
+/* line 233, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+.btn:focus, .btn:hover {
+  text-decoration: none; }
+
+/* line 237, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+.btn:focus {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 2px rgba(86, 192, 156, 0.25);
+  box-shadow: 0 0 0 2px rgba(86, 192, 156, 0.25); }
+
+/* line 243, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: .65; }
+
+/* line 248, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+.btn:active {
+  background-image: none; }
+
+/* line 252, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+.btn-green {
+  color: #56C09C;
+  border-color: #56C09C; }
+
+/* line 257, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+.btn-green:hover {
+  color: #fff;
+  background-color: #56C09C; }
+
+/* line 262, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+.btn-green:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba(86, 192, 156, 0.25);
+  box-shadow: 0 0 0 2px rgba(86, 192, 156, 0.25); }
+
+/* line 267, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+.btn-green:disabled {
+  background-color: #388067;
+  border-color: #388067; }
+
+/* line 272, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+.btn-green:active {
+  color: #fff;
+  background-color: #388067;
+  background-image: none;
+  border-color: #388067; }
+
+/* line 279, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+.btn-red {
+  color: #DF4344;
+  border-color: #DF4344; }
+
+/* line 284, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+.btn-red:hover {
+  color: #fff;
+  background-color: #DF4344; }
+
+/* line 289, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+.btn-red:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba(220, 69, 108, 0.25);
+  box-shadow: 0 0 0 2px rgba(220, 69, 108, 0.25); }
+
+/* line 294, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+.btn-red:disabled {
+  background-color: #b53858;
+  border-color: #b53858; }
+
+/* line 299, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+.btn-red:active {
+  color: #fff;
+  background-color: #943f55;
+  background-image: none;
+  border-color: #943f55; }
+
+/* line 306, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+.btn-white {
+  color: #fff;
+  border-color: #fff; }
+
+/* line 311, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+.btn-white:hover {
+  color: #3023ae;
+  background-color: rgba(255, 255, 255, 0.8); }
+
+/* line 316, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+.btn-white:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3); }
+
+/* line 329, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+.envelope {
+  width: 200px;
+  position: relative;
+  margin: 24px auto; }
+  /* line 334, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  .envelope .envelope-outline {
+    width: 120px;
+    height: 75px;
+    border: 4px solid #fff;
+    animation: circle .5s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1.2s;
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+    margin: 0 auto; }
+  /* line 347, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  .envelope .triangle {
+    border-left: 5px solid #effeff;
+    border-bottom: 5px solid #effeff;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -63px;
+    left: 6px;
+    transform: rotate(-45deg);
+    animation: check .5s 1;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
+    border-radius: 0 0 0 3px; }
+  /* line 362, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  .envelope .warning {
+    border-left: 5px solid #f9e3e3;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top: 13px;
+    left: 55px;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
+    border-radius: 0;
+    animation: x-right .5s 1;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards; }
+  /* line 377, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  .envelope .warning:before {
+    position: absolute;
+    content: "";
+    background-color: #f9e3e3;
+    height: 6px;
+    width: 5px;
+    top: 36px;
+    left: -5px;
+    z-index: 2;
+    animation: x-left .5s 1;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards; }
+  /* line 391, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  .envelope .dot {
+    height: 8px;
+    width: 8px;
+    background-color: #fff;
+    border-radius: 100%;
+    position: absolute;
+    opacity: 0; }
+  /* line 401, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  .envelope .dot1 {
+    animation: dot1 1.2s 1;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards; }
+  /* line 401, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  .envelope .dot2 {
+    animation: dot2 1.2s 1;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards; }
+  /* line 401, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  .envelope .dot3 {
+    animation: dot3 1.2s 1;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards; }
+  /* line 401, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  .envelope .dot4 {
+    animation: dot4 1.2s 1;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards; }
+  /* line 401, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  .envelope .dot5 {
+    animation: dot5 1.2s 1;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards; }
+  /* line 401, /Users/mac/Desktop/chartmetric/css/scss/common.scss */
+  .envelope .dot6 {
+    animation: dot6 1.2s 1;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards; }
+
+/* line 1, /Users/mac/Desktop/chartmetric/css/scss/typography.scss */
+body {
+  font-family: Roboto, Helvetica-Neue, Helvetica, Arial, sans-serif;
+  font-weight: 200; }
+
+/* line 6, /Users/mac/Desktop/chartmetric/css/scss/typography.scss */
+.text-center {
+  text-align: center; }
+
+/* line 10, /Users/mac/Desktop/chartmetric/css/scss/typography.scss */
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word; }
+
+/* line 15, /Users/mac/Desktop/chartmetric/css/scss/typography.scss */
+.text-white {
+  color: #fff; }
+
+/* line 19, /Users/mac/Desktop/chartmetric/css/scss/typography.scss */
+.text-green {
+  color: #2e715a; }
+
+/* line 23, /Users/mac/Desktop/chartmetric/css/scss/typography.scss */
+.text-red {
+  color: #DC456C; }
+
+/* line 27, /Users/mac/Desktop/chartmetric/css/scss/typography.scss */
+.text-grey {
+  color: #bbb; }
+
+/* line 31, /Users/mac/Desktop/chartmetric/css/scss/typography.scss */
+.text-big {
+  font-size: 2.4em;
+  font-weight: 800;
+  letter-spacing: 6px;
+  margin-bottom: .1em;
+  line-height: 1.2em; }
+
+/* line 3, /Users/mac/Desktop/chartmetric/css/scss/verified.scss */
+#verified {
+  background: url(../img/bg.jpg) no-repeat center top;
+  background-size: auto 100%; }
+
+/* line 3, /Users/mac/Desktop/chartmetric/css/scss/error.scss */
+#error {
+  background: url(../img/bg_error.jpg) no-repeat center top;
+  background-size: auto 100%; }
+
+@keyframes circle {
+  0% {
+    border-radius: 0;
+    width: 150px;
+    height: 90px;
+    margin: auto; }
+  100% {
+    border-radius: 100%;
+    width: 75px;
+    height: 72px;
+    margin: auto;
+    transform: rotate(180deg); } }
+
+@keyframes check {
+  0% {
+    height: 125px;
+    width: 125px; }
+  100% {
+    height: 15px;
+    width: 35px;
+    top: 30px;
+    left: 15px;
+    margin: auto;
+    transform: rotate(135deg); } }
+
+@keyframes x-right {
+  0% {
+    height: 125px;
+    width: 125px; }
+  100% {
+    border-bottom: none;
+    height: 50px;
+    width: 50px;
+    top: 21px;
+    left: 24px;
+    transform: rotate(45deg); } }
+
+@keyframes x-left {
+  0% {
+    height: 6px;
+    width: 5px; }
+  100% {
+    height: 5px;
+    width: 48px;
+    top: 23px;
+    left: -26px; } }
+
+@keyframes dot1 {
+  0% {
+    opacity: 0;
+    top: 16px;
+    left: 63px; }
+  50% {
+    opacity: 0.4; }
+  100% {
+    top: 0;
+    left: 45px;
+    opacity: 0.7; } }
+
+@keyframes dot2 {
+  0% {
+    opacity: 0;
+    top: 0;
+    left: 95px; }
+  50% {
+    opacity: 0.4; }
+  100% {
+    top: -22px;
+    left: 95px;
+    opacity: 0.7; } }
+
+@keyframes dot3 {
+  0% {
+    opacity: 0;
+    top: 16px;
+    right: 63px; }
+  50% {
+    opacity: 0.4; }
+  100% {
+    top: 0;
+    right: 45px;
+    opacity: 0.7; } }
+
+@keyframes dot4 {
+  0% {
+    opacity: 0;
+    bottom: 16px;
+    right: 63px; }
+  50% {
+    opacity: 0.4; }
+  100% {
+    bottom: 0;
+    right: 45px;
+    opacity: 0.7; } }
+
+@keyframes dot5 {
+  0% {
+    opacity: 0;
+    bottom: 0;
+    left: 95px; }
+  50% {
+    opacity: 0.4; }
+  100% {
+    bottom: -25px;
+    left: 95px;
+    opacity: 0.7; } }
+
+@keyframes dot6 {
+  0% {
+    opacity: 0;
+    bottom: 16px;
+    left: 63px; }
+  50% {
+    opacity: 0.4; }
+  100% {
+    bottom: 0;
+    left: 45px;
+    opacity: 0.7; } }
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0); }
+  to {
+    opacity: 1;
+    transform: none; } }
+
+/* line 172, /Users/mac/Desktop/chartmetric/css/scss/animation.scss */
+.fadeInDown {
+  animation-name: fadeInDown;
+  animation-duration: 1.6s;
+  animation-fill-mode: both; }
+
+/* line 178, /Users/mac/Desktop/chartmetric/css/scss/animation.scss */
+.delay {
+  -webkit-animation-delay: .5s;
+  /* Safari 4.0 - 8.0 */
+  animation-delay: .5s; }
+
+/* line 183, /Users/mac/Desktop/chartmetric/css/scss/animation.scss */
+.delay-2x {
+  -webkit-animation-delay: 1s;
+  /* Safari 4.0 - 8.0 */
+  animation-delay: 1s; }
+
+/* line 8, /Users/mac/Desktop/chartmetric/css/style.scss */
+#pay {
+  background: #c96dd8;
+  background: -moz-linear-gradient(45deg, #c96dd8 0%, #3023ae 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #c96dd8), color-stop(100%, #3023ae));
+  background: -webkit-linear-gradient(45deg, #c96dd8 0%, #3023ae 100%);
+  background: -o-linear-gradient(45deg, #c96dd8 0%, #3023ae 100%);
+  background: -ms-linear-gradient(45deg, #c96dd8 0%, #3023ae 100%);
+  background: linear-gradient(45deg, #c96dd8 0%, #3023ae 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c96dd8', endColorstr='#3023ae', GradientType=1 ); }
+
+/* line 19, /Users/mac/Desktop/chartmetric/css/style.scss */
+.btn-white {
+  position: relative; }
+
+/* line 22, /Users/mac/Desktop/chartmetric/css/style.scss */
+.stripe-button-el {
+  opacity: 0;
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/* line 32, /Users/mac/Desktop/chartmetric/css/style.scss */
+.text-grey {
+  color: #bbb; }
+
+/* line 35, /Users/mac/Desktop/chartmetric/css/style.scss */
+.text-big {
+  font-size: 2.4em;
+  font-weight: 800;
+  letter-spacing: 6px;
+  margin-bottom: .1em;
+  line-height: 1.2em; }
+
+/* line 43, /Users/mac/Desktop/chartmetric/css/style.scss */
+img.logo {
+  width: 70px;
+  margin: 10vh 0 3vh; }
+
+/* line 48, /Users/mac/Desktop/chartmetric/css/style.scss */
+img.icon {
+  width: 300px;
+  margin: 10px 0 40px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
+  /* line 54, /Users/mac/Desktop/chartmetric/css/style.scss */
+  img.icon:hover {
+    transform: rotate(3deg); }
+
+@media (max-width: 767px) {
+  /* line 60, /Users/mac/Desktop/chartmetric/css/style.scss */
+  img.icon {
+    width: 150px; }
+  /* line 63, /Users/mac/Desktop/chartmetric/css/style.scss */
+  .btn {
+    width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */

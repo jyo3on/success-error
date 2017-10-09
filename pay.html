@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#56C09C" /> <!-- brand color for mobile web -->
+    <title>Chartmetric | New Way to Analyze Music Performance</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.min.css">
+
+</head>
+<body id="pay">
+  <div class="container text-center">
+      <img class="logo" src="img/logo_color.png" alt="logo"/>
+      <h2 class="text-white text-big">CUSTOMIZE PAYMENT</h2>
+      <p class="text-grey">-<i> Thanks for supporting Chartmetric.</i>-</p>
+      <!-- animation -->
+      <img class="icon" src="img/card_icon.png" alt="card icon"/>
+      <!-- button -->
+      <form class="btn btn-white" action="/cm-customize-pay" method="POST" >
+         Pay with Card
+          <script
+            src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+              data-name="Chartmetric"
+              data-description="Widget"
+              data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+              data-locale="auto">
+//                      data-key=<%- JSON.stringify(stripeAPIPublishableToken) %>
+          </script>
+      </form>
+  </div>
+</body>
+</html>
+
